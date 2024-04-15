@@ -1,0 +1,45 @@
+.container-fluid {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #2f3d46;
+  color: white;
+  padding: 20px;
+}
+header span {
+  margin-right: 10px;
+  font-size: 30px;
+}
+header h5 {
+  flex: 1;
+  text-align: center;
+}
+
+.row {
+  color: aliceblue;
+  background-color: #cad2c5;
+}
+
+.col {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 20px;
+  padding: 50px;
+  color: #353535;
+  background-color: #353535;
+}
+
+.search {
+  text-align: left;
+  color: #676767;
+
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
